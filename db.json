@@ -1,0 +1,90 @@
+{
+  "users": [],
+  "people": [
+    {
+      "id": 456317,
+      "name": "Mr. Bean"
+    },
+    {
+      "id": 456318,
+      "name": "Diego Playa"
+    },
+    {
+      "id": 456319,
+      "name": "Guille Puertas"
+    },
+    {
+      "id": 456320,
+      "name": "M. Rajoy"
+    },
+    {
+      "id": 456321,
+      "name": "María López"
+    },
+    {
+      "id": 456322,
+      "name": "Pedro Carreras"
+    },
+    {
+      "id": 456323,
+      "name": "Mike Rivers"
+    },
+    {
+      "id": 456324,
+      "name": "Juan Nadie"
+    },
+    {
+      "id": 456325,
+      "name": "Julia Soto"
+    },
+    {
+      "id": 456326,
+      "name": "Darth Maul"
+    },
+    {
+      "id": 456327,
+      "name": "Obi Juan"
+    },
+    {
+      "id": 456328,
+      "name": "Oldie Lennon"
+    },
+    {
+      "id": 456329,
+      "name": "Mss. Rottenmeier"
+    },
+    {
+      "id": 456330,
+      "name": "Anita Kiro"
+    },
+    {
+      "id": 456331,
+      "name": "Bea Fangirl"
+    },
+    {
+      "id": 456332,
+      "name": "Pijus Magnificus"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "author": 456317,
+      "body": "mensaje 0 con un texto algo largo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "date": "2019-03-26T18:33:00"
+    },
+    {
+      "id": 2,
+      "author": 456317,
+      "body": "mensaje 1 de texto suficientemente largo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "date": "2019-03-26T18:33:02"
+    },
+    {
+      "author": 456326,
+      "body": "Yo... no soy tu padre",
+      "date": "2019-03-27T09:33:41.579Z",
+      "id": 3
+    }
+  ],
+  "files": []
+}

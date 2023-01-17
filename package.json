@@ -1,0 +1,22 @@
+{
+  "name": "mock-websocket-rest-server",
+  "version": "1.0.0",
+  "description": "Base mock chat server with REST and WebSocket support.",
+  "main": "server.js",
+  "license": "MIT",
+  "repository": "https://github.com/Galicloud/mock-websocket-rest-server",
+  "author": "Galicloud <dev@galicloud.com>",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon --ignore db.json server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.1",
+    "json-server-auth": "^2.1.0",
+    "multer": "^1.4.2",
+    "ws": "^8.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
