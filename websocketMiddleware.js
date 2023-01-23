@@ -9,7 +9,7 @@ const getBroadcastNewMessageMiddleware = (port, path) => (req, res, next) => {
     if (req.method === "POST" && req.originalUrl === "/messages") {
       // We create a websocket client, connect to ourselves,
       // wait for connection completion and then broadcast the new message and close
-      const wsClient = new WebSocket(`ws://localhost:${port}${path}`);
+      const wsClient = new WebSocket(`ws://127.0.0.1:${port}${path}`);
       wsClient.on("open", function open() {
         wsClient.send(JSON.stringify(responseBody));
         wsClient.close();
